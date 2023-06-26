@@ -359,7 +359,7 @@ const App = () => {
               onChange={handleCommentSelect}
               renderValue={(selected) => selected.join(" ")}
               variant="outlined"
-              placeholder="Tag To"
+              placeholder="Tag To:"
             >
               {people.map((person, index) => (
                 <MenuItem key={index} value={person}>
